@@ -2,6 +2,9 @@
 
 This is a full-stack MERN (MongoDB, Express.js, React, Node.js) application that allows users to perform CRUD (Create, Read, Update, Delete) operations. The application is containerized using Docker and deployed using Kubernetes.
 
+## DEMO
+-[DEMO LINK](https://www.awesomescreenshot.com/video/36136161?key=490248341139953ed6c065541442bc6c)
+
 ## Frontend Repository
 - [Frontend Repo Link](https://github.com/homosapian1999/UserCrud-Frontend)
 
