@@ -34,7 +34,7 @@ export default function CreateUserPage() {
     formState: { errors, isValid },
   } = useForm<UserType>({
     resolver: zodResolver(createUserSchema),
-    mode: "onChange", // Validate the form on change
+    mode: "onChange",
   });
 
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
@@ -76,8 +76,8 @@ export default function CreateUserPage() {
       ...base,
       maxHeight: "150px",
       overflowY: "auto",
-      zIndex: 9999, // Ensure it appears above other elements
-      position: "absolute", // Position it absolutely
+      zIndex: 9999, 
+      position: "absolute",
     }),
     menuList: (base) => ({
       ...base,
@@ -86,11 +86,11 @@ export default function CreateUserPage() {
     }),
     multiValue: (base) => ({
       ...base,
-      backgroundColor: "#e2e8f0", // light gray
+      backgroundColor: "#e2e8f0", 
     }),
     multiValueLabel: (base) => ({
       ...base,
-      color: "#000", // black
+      color: "#000",
     }),
   };
 

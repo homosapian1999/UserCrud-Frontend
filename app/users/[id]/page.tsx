@@ -108,8 +108,8 @@ export default function EditUserPage() {
       ...base,
       maxHeight: "150px",
       overflowY: "auto",
-      zIndex: 9999, // Ensure it appears above other elements
-      position: "absolute", // Position it absolutely
+      zIndex: 9999,
+      position: "absolute",
     }),
     menuList: (base) => ({
       ...base,
@@ -117,11 +117,11 @@ export default function EditUserPage() {
     }),
     multiValue: (base) => ({
       ...base,
-      backgroundColor: "#e2e8f0", // light gray
+      backgroundColor: "#e2e8f0",
     }),
     multiValueLabel: (base) => ({
       ...base,
-      color: "#000", // black
+      color: "#000",
     }),
   };
 
@@ -130,7 +130,7 @@ export default function EditUserPage() {
       setValue("name", user.name);
       setValue("email", user.email);
       setValue("age", user.age);
-      setValue("mobile", String(user.mobile)); // Convert to string
+      setValue("mobile", String(user.mobile));
       setValue("interests", user.interests);
     }
   }, [user, setValue]);
