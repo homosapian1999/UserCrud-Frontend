@@ -21,8 +21,6 @@ This is a full-stack MERN (MongoDB, Express.js, React, Node.js) application that
    - [Docker and Kubernetes](#docker-and-kubernetes)
 5. [Running the Application](#running-the-application)
 6. [Deployment](#deployment)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
